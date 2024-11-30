@@ -1,4 +1,4 @@
-const express = require('express');
+const express = require('express'); 
 require('dotenv').config();
 const cors = require('cors');
 const path = require('path');
@@ -35,7 +35,7 @@ app.use((req, res, next) => {
 });
 
 // Start the server
-const PORT = process.env.PORT || 5000;
-app.listen(process.env.PORT, () => {
+const PORT = process.env.PORT || 5000; // Utiliser la constante PORT
+app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
