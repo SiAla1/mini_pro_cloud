@@ -1,0 +1,10 @@
+{
+    "name": "mini_pro_cloud",
+    "version": "1.0.0",
+    "scripts": {
+      "start": "node back/app.js",
+      "install": "npm --prefix client install && npm --prefix back install",
+      "build": "npm run build --prefix client"
+    }
+  }
+  
