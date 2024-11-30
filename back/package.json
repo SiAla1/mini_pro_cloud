@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-
     "start": "nodemon app.js",
     "dev": "nodemon app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd ../client && npm install && npm run build && cp -r build/* ../back/public"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +19,7 @@
     "express": "^4.21.1",
     "mssql": "^11.0.1",
     "mysql2": "^3.11.4",
-    "odbc": "^2.4.9"
+    "odbc": "^2.4.9",
+    "path": "^0.12.7"
   }
 }
