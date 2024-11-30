@@ -1,0 +1,71 @@
+/* src/App.css */
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+.button-classic {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-classic:hover {
+  background-color: #0056b3;
+}
+
+
+
+.button-border {
+  padding: 12px 24px;
+  font-size: 16px;
+  color: #007BFF;
+  background-color: transparent;
+  border: 2px solid #007BFF;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button-border:hover {
+  background-color: #007BFF;
+  color: white;
+}
+
+.button-shadow {
+  padding: 12px 24px;
+  font-size: 16px;
+  color: #ff0000;
+  background-color: transparent;
+  border: 2px solid #ff0000;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button-shadow:hover  {
+  background-color: #ff0000;
+  color: white;
+}
+
