@@ -10,7 +10,7 @@ const clientRoutes = require('./routes/clientRoutes');
 // Middleware pour gérer les CORS
 app.use(
   cors({
-    origin:*, // Autoriser les requêtes depuis cette origine
+    origin:'*', // Autoriser les requêtes depuis cette origine
     credentials: true, // Permettre l'envoi de cookies ou d'en-têtes autorisés
   })
 );
